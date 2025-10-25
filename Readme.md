@@ -17,15 +17,25 @@ Folder structure
 
 app/
 ├── .env # Environment variables (keep secret info here)
+
 ├── db.sqlite # SQLite database (can be added to .gitignore if not needed in the repo)
+
 ├── faq.py # FAQ handling logic
+
 ├── main.py # Entry point for the chatbot application
+
 ├── resources/
+
 │ ├── faq_data.csv # FAQ data for ingestion
+
 ├── router.py # Query routing logic
+
 ├── small_talk.py # Small talk handling logic
+
 ├── sql.py # SQL query generation and execution logic
+
 ├── requirements.txt # Project dependencies (e.g., Streamlit, pandas)
+
 └── README.md # Project overview and usage instructions
 
 ---
@@ -46,7 +56,7 @@ app/
 
     ```bash
     git clone https://github.com/Apurv-Mahamuni/E-Commerce-chatbot
-    cd ecommerce-chatbot
+    cd E-Commerce-chatbot
     ```
 
 2. Install dependencies:
